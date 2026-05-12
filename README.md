@@ -42,20 +42,43 @@ Mở:
 http://192.168.1.13:8082
 ### Tạo bài viết 1
 Giới thiệu bản thân
-Tạo bài viết 1
+Tạo 1 bài viết trong wordpress giới thiệu về bản thân sinh viên: thông tin cá nhân, sở thích, ... bài viết có thể chứa hình ảnh, âm thanh, video, .
 <img width="1721" height="998" alt="image" src="https://github.com/user-attachments/assets/1c292364-8fb4-4524-9ba9-69530f231996" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/061e9304-f087-424b-8ef3-a4e6cabe925e" />
+
+ ### Tạo bài viết 2
+   Tạo 1 bài viết trong wordpress giới thiệu về ngành học mà em yêu thích trong trường TNUT. bài viết phải chứa hình ảnh, video, ...
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0146e6e6-5a1a-440d-ae77-87e214b53b62" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/41ff5d13-159d-4a00-b936-31fa4654503b" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6bd82164-f404-41bd-bf86-b0c6db7ce414" />
+Sử dụng cloudflare tunnel để public web này lên 1 sub-domain
+cloudflared --version
+LOGIN CLOUDFLARE: cloudflared tunnel login
+TẠO TUNNEL
+chạy: cloudflared tunnel create wordpress-tunnel
+Tạo file config: nano ~/.cloudflared/config.yml
 <img width="1172" height="677" alt="image" src="https://github.com/user-attachments/assets/d01c6003-f2fa-4f8b-8919-45ca3072b09b" />
+Vào Wordpess -> cài đặt -> tổng quan và sửa URL
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/63be88a8-b98a-442a-a7e6-9dddd83c2b7c" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7b224076-3ab0-49f3-a9a5-a0959f4e4016" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f4a472d7-61ef-4bf3-94b6-a763e8fbcc7a" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a4382317-d97f-4b40-90af-724e19a91605" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f6aa31ea-1232-4c60-b3f5-f42b8a52846c" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1e442a00-0428-4e48-adc3-935b70ead9f3" />
+### Nhận xét việc sử dụng mã nguồn mở wordpress để tạo website (tốn công sức thế nào, dễ/khó dùng ra sao, tốn kém tài nguyên(ssh/ram) của máy chủ ra sao,....)
+WordPress là một mã nguồn mở mạnh và phổ biến giúp tạo website nhanh chóng mà không cần lập trình quá nhiều. Khi kết hợp với Docker Compose, việc triển khai WordPress trở nên thuận tiện hơn vì có thể quản lý MariaDB, PhpMyAdmin và WordPress bằng container.
 
+Ưu điểm:
+
+Cài đặt nhanh
+Dễ sử dụng
+Có nhiều plugin và theme
+Hỗ trợ đăng bài viết, ảnh, video dễ dàng
+Nhược điểm:
+Tốn RAM và tài nguyên hơn website tĩnh
+Nếu dùng nhiều plugin website có thể chậm
+Cần cấu hình bảo mật khi public lên Internet
+Qua bài thực hành em học được cách sử dụng Docker Compose, quản lý container, cấu hình WordPress với MariaDB và public website bằng Cloudflare Tunnel.
 
 
 
