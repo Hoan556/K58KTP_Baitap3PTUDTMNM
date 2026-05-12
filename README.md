@@ -48,6 +48,15 @@ Tạo bài viết 1
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0146e6e6-5a1a-440d-ae77-87e214b53b62" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/41ff5d13-159d-4a00-b936-31fa4654503b" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6bd82164-f404-41bd-bf86-b0c6db7ce414" />
+<img width="1172" height="677" alt="image" src="https://github.com/user-attachments/assets/d01c6003-f2fa-4f8b-8919-45ca3072b09b" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/63be88a8-b98a-442a-a7e6-9dddd83c2b7c" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7b224076-3ab0-49f3-a9a5-a0959f4e4016" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f4a472d7-61ef-4bf3-94b6-a763e8fbcc7a" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a4382317-d97f-4b40-90af-724e19a91605" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f6aa31ea-1232-4c60-b3f5-f42b8a52846c" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1e442a00-0428-4e48-adc3-935b70ead9f3" />
+
+
 
 
 
